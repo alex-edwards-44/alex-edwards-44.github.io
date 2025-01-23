@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/ffc.png
+image: img/fastfashion.png
 title: "Fast Fashion Research Project"
 date: 2023
 published: true
@@ -13,7 +13,7 @@ summary: "A CSL ethno-graphic resarch project reguarding Fast Fashion."
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/fastfashion.png >
+  <img width="200px" src="../img/ffc.png >
 
 
 Over the summer of 2023, I enrolled in a sociology class where we were conducted to perform a CSL(community service learning) project. In my hometown in Northern California, we have multiple giant thriftstores that are mostly ran by volunteer efforts from the community. I thought this would be a perfect opprutunity to partake and as well get first hand experience in a small part of the fast 
