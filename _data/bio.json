@@ -10,7 +10,7 @@
     "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
       { "network": "github", "username": "alex-edwards-44", "url": "http://github.com/alex-edwards-44" },
-      { "network": "linkedin", "username": "Alexander Edwards", "url": "www.linkedin.com/in/alexander-edwards-linked-in" },
+      { "network": "linkedin", "username": "Alexander Edwards", "url": "http://www.linkedin.com/in/alexander-edwards-linked-in" },
       { "network": "instagram", "username": "alex_edwards44", "url": "http://instagram.com/alex_edwards44" }
     ]
   },
