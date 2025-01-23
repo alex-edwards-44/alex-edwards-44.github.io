@@ -23,3 +23,4 @@ Studying in a smaller town like mine allows you to see the direct and immediate 
 In this project, I analyzed the fast fashion issue from micro, meso, and macro levels while relating my findings to theoretical frameworks and sociological theorists. 
 
 If you're curious to learn more about fast fashion, click [here](https://www.youtube.com/watch?v=8zACQA8Vjxs) for my short video.
+If you would like to read more, click [here](https://alex-edwards-44.github.io/essays/fast-fashion-consumerism.html).
