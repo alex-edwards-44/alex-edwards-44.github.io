@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/moneylogo.webp
 title: "Banking Application (C)"
 date: 2024
 published: true
@@ -12,28 +12,89 @@ labels:
 summary: "Bank database application in the C programming language"
 ---
 
-<div class="text-center p-4">
-  <img width="200px" src="../img/micromouse/micromouse-robot.png" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-robot-2.jpg" class="img-thumbnail" >
-  <img width="200px" src="../img/micromouse/micromouse-circuit.png" class="img-thumbnail" >
-</div>
 
-Micromouse is an event where small robot “mice” solve a 16 x 16 maze.  Events are held worldwide.  The maze is made up of a 16 by 16 gird of cells, each 180 mm square with walls 50 mm high.  The mice are completely autonomous robots that must find their way from a predetermined starting position to the central area of the maze unaided.  The mouse will need to keep track of where it is, discover walls as it explores, map out the maze and detect when it has reached the center.  having reached the center, the mouse will typically perform additional searches of the maze until it has found the most optimal route from the start to the center.  Once the most optimal route has been determined, the mouse will run that route in the shortest possible time.
+This bank application consists of two key files: one that implements various database functions (such as adding, finding, and deleting records) and another that serves as the driver/user-interface file. Upon closing the application, the data is saved to a text file, and memory is deallocated. When the application is restarted, the data is reloaded, restoring the database to its previous state.
 
-For this project, I was the lead programmer who was responsible for programming the various capabilities of the mouse.  I started by programming the basics, such as sensor polling and motor actuation using interrupts.  From there, I then programmed the basic PD controls for the motors of the mouse.  The PD control the drive so that the mouse would stay centered while traversing the maze and keep the mouse driving straight.  I also programmed basic algorithms used to solve the maze such as a right wall hugger and a left wall hugger algorithm.  From there I worked on a flood-fill algorithm to help the mouse track where it is in the maze, and to map the route it takes.  We finished with the fastest mouse who finished the maze within our college.
+This was an individual project I developed for my ICS 212 class. Through this project, I gained valuable experience and improved my technical skills, particularly in pointers and memory management. I also enhanced my practical skills, such as tracing, debugging, and designing effective functions. Additionally, I implemented a debug system using command-line arguments, which streamlined the debugging and maintenance processes.
 
-Here is some code that illustrates how we read values from the line sensors:
+Later, I recreated this application in C++ to deepen my understanding of the language and explore how references could be applied to improve the design.
+
+Below is an example of the code I used to store the data:
 
 ```c
-byte ADCRead(byte ch)
-{
-    word value;
-    ADC1SC1 = ch;
-    while (ADC1SC1_COCO != 1)
-    {   // wait until ADC conversion is completed   
+/*****************************************************************
+//////// function name: readfile
+////////  DESCRIPTION:   A function that reads the information from a  
+////////                file and restores it in the database
+////////
+////////
+////////  Parameters:
+////////  Struct **start: pointer to the first node in the record list
+////////  char filename[]: file being opened and read from
+////////
+////////  Return values: 0: the file was succesfuly opened and read
+////////                 -1: the file could not be opened
+////////
+****************************************************************/
+int readfile(struct record **start, char filename[])
+{   
+    FILE *file;
+    int accountno;
+    int result = 0;
+    char name[25];
+    char address[50];
+    struct record *newRecord;
+    struct record *last = NULL;
+    
+    file = fopen(filename, "r");
+    if(file == NULL)
+    {   
+        return -1;
     }
-    return ADC1RL;  // lower 8-bit value out of 10-bit data from the ADC
+    
+    while(fscanf(file,"%d\n", &accountno) == 1)
+    {   
+        fgets(name, sizeof(name), file);
+        name[strcspn(name, "\n")]='\0';
+        
+        fgets(address, sizeof(address), file);
+        address[strcspn(address,"\n")] = '\0';
+        
+        newRecord = (struct record *)malloc(sizeof(struct record));
+        if(newRecord == NULL)
+        {   
+            fclose(file);
+            cleanup(start);
+            return -1;
+        }
+        if (debugMode == 1)
+        {   
+            printf("Read record: Account No: %d, Name: %s, Address: %s\n", accountno, name, address);
+        }
+         
+        newRecord->accountno = accountno;
+        strncpy(newRecord->name, name, sizeof(newRecord->name)-1);
+        newRecord->name[sizeof(newRecord->name)-1]='\0';
+        strncpy(newRecord->address, address, sizeof(newRecord->address)-1);
+        newRecord->address[sizeof(newRecord->address)-1] = '\0';
+        newRecord->next = NULL;
+        
+        if(*start == NULL)
+        {   
+            *start = newRecord;
+        }
+        else
+        {   
+            last->next = newRecord;
+        }
+    fclose(file);
+    if (debugMode == 1)
+    {
+        printf("DebugMode: Finished reading file '%s'.\n", filename);
+    }
+    return result;
 }
+                                             
 ```
 
-You can learn more at the [UH Micromouse News Announcement](https://manoa.hawaii.edu/news/article.php?aId=2857).
+You can see more at the [FIX](https://manoa.hawaii.edu/news/article.php?aId=2857).
