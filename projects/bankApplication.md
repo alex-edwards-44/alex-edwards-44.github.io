@@ -101,4 +101,4 @@ int readfile(struct record **start, char filename[])
                                              
 ```
 
-You can see more code for this application [here](https://manoa.hawaii.edu/news/article.php?aId=2857).
+
