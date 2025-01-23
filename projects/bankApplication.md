@@ -12,7 +12,7 @@ labels:
 summary: "Bank database application in the C programming language"
 ---
 
-
+<img class="img-fluid" src="../img/Bank.webp">
 This bank application consists of two key files: one that implements various database functions (such as adding, finding, and deleting records) and another that serves as the driver/user-interface file. Upon closing the application, the data is saved to a text file, and memory is deallocated. When the application is restarted, the data is reloaded, restoring the database to its previous state.
 
 This was an individual project I developed for my ICS 212 class. Through this project, I gained valuable experience and improved my technical skills, particularly in pointers and memory management. I also enhanced my practical skills, such as tracing, debugging, and designing effective functions. Additionally, I implemented a debug system using command-line arguments, which streamlined the debugging and maintenance processes.
