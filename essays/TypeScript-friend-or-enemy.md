@@ -10,7 +10,7 @@ labels:
   - software engineering
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/typescript.wep">
+<img width="200px" class="rounded float-start pe-4" src="../img/typescript.webp">
 
 *My Friend or My Enemy: TypeScript*
 
