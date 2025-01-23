@@ -13,7 +13,7 @@ summary: "A CSL ethnographic research project regarding Fast Fashion."
 ---
 
 <div class="text-center p-4">
-  <img width="200px" src="../img/ffc.png" alt="Fast Fashion Project Image">
+  <img width="800px" src="../img/ffc.png" alt="Fast Fashion Project Image">
 </div>
 
 Over the summer of 2023, I enrolled in a sociology class where we were tasked to perform a CSL (Community Service Learning) project. In my hometown in Northern California, we have multiple giant thrift stores that are mostly run by volunteer efforts from the community. I thought this would be a perfect opportunity to partake and gain firsthand experience in addressing a small part of the fast fashion problem. 
