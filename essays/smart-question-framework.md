@@ -24,7 +24,7 @@ Instead of vague inquiries like “My program doesn’t work,” a smart questio
 
 ## Proper example
 
-The question “Why does a = a * (x + i) / i; and a *= (x + i) / i; return two different results?” ([link]( https://stackoverflow.com/questions/79347608/why-does-a-a-x-i-i-and-a-x-i-i-return-two-different-results)) is a proper example of a well developed smart question that adheres to many principles of Eric’s paper. The user clearly describes their problem, provides context about the mathematical approach they are implementing, and includes a minimal reproducible code snippet that allows others to easily diagnose the issue. Additionally, the user demonstrates effort by outlining their attempts to solve the issue—mentioning that they tried adding parentheses and considering integer division as a potential cause. 
+The question “Why does a = a * (x + i) / i; and a *= (x + i) / i; return two different results?” ([Link]( https://stackoverflow.com/questions/79347608/why-does-a-a-x-i-i-and-a-x-i-i-return-two-different-results)) is a proper example of a well developed smart question that adheres to many principles of Eric’s paper. The user clearly describes their problem, provides context about the mathematical approach they are implementing, and includes a minimal reproducible code snippet that allows others to easily diagnose the issue. Additionally, the user demonstrates effort by outlining their attempts to solve the issue—mentioning that they tried adding parentheses and considering integer division as a potential cause. 
 
 ## A not smart question 
 
@@ -33,4 +33,8 @@ The question "What does this sort algorithm do?"([Link](https://stackoverflow.co
 ## Concluding thoughts 
 
 TypeScript is a great language with many different applications. Each day that I use it, I grow more fond of the language and its capabilities. One aspect I truly appreciate is the reduction in errors when using TypeScript. While some of this might be attributed to my progression as a programmer, much of it stems from TypeScript’s clear syntax. I am looking forward to future projects and opportunities involving TypeScript and continuing to implement athletic software engineering into my routine
+
+## Use of AI
+
+I used ChatGPT to assist with refining my arguments. Additionally, I used AI to generate title suggestions and a cover image that visually represents the theme of asking smart questions in software engineering. All content used was reviewed and edited to ensure it reflects my own understanding and writing style.
 
