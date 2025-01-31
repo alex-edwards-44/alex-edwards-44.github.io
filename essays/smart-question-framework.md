@@ -11,7 +11,7 @@ labels:
   - smart questions
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/SE.webp">
+<img width="200px" class="rounded float-start pe-4" src="../img/smartQ.webp">
 
 *Smart Question Framework*
 
