@@ -11,7 +11,7 @@ labels:
   - development
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="../img/smartQ.webp">
+<img width="200px" class="rounded float-start pe-4" src="../img/codingstandards.webp">
 
 *Coding Standards: A Foundation for Quality Software*
 
