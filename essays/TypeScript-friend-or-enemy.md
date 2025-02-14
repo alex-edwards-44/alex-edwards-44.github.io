@@ -18,7 +18,7 @@ One week ago, I had never compiled a TypeScript program. Now, after spending sev
 
 ## TypeScript Compared to Other Languages
 
-In a way TypeScript is a middle ground between JavaScripts flexibility and the strictness of Java. It requires a higher level of discipline than Javascript while still maintaining its dynamic abilities. It’s clear as well that it still focuses more on scalability and productivity opposed to performance like C and C++. While TypeScript demands a level of precision similar to C, its basic concepts and syntax should be easy to grasp for anyone with prior experience in an object-oriented language. 
+In a way TypeScript is a middle ground between JavaScripts flexibility and the strictness of Java. It requires a higher level of discipline than Javascript while still maintaining its dynamic abilities and simplicity. It’s clear as well that it still focuses more on scalability and productivity opposed to performance like C and C++. While TypeScript demands a level of precision similar to C, its basic concepts and syntax should be easy to grasp for anyone with prior experience in an object-oriented language. 
 
 Even though I have not done anything substantial with TypeScript, I am already beginning to admire the readability of the code I have produced.  Another thing I really admire is the seamless integration with JavaScript. The ability to go back and forth feels as if JavaScript and TypeScript are brothers compared to C and C++ being cousins. As each day goes by, I discover new capabilities of TypeScript, and my respect for its structure continues to grow.
 
