@@ -29,10 +29,11 @@ At first glance, Bootstrap seemed like a simple way to enhance my front-end deve
 
 Using a UI framework like Bootstrap improves development speed and ensures design consistency across projects. Pre-built components reduce the need for extensive custom styling, making it easier to maintain and scale applications. The responsive grid system simplifies layout management, allowing developers to create mobile-friendly designs effortlessly. Additionally, UI frameworks incorporate accessibility best practices, helping developers build more inclusive web experiences with minimal extra effort.
 
-This is an example of a website I made using bootstrap vs a an attempted recreation using only HTML/CSS in the same amount of time. 
+This is an example of a website I made using bootstrap vs an attempted recreation using only HTML/CSS.
 
-<img width="200px" class="rounded pe-4" src="../img/bootstrap.png">
-<img width="200px" class="rounded pe-4" src="../img/woBootstrap.png">
+
+<img width="400px" class="rounded pe-4" src="../img/bootstrap.png">
+<img width="400px" class="rounded pe-4" src="../img/woBootstrap.png">
 
 ## Future of UI Frameworks
 
