@@ -32,7 +32,7 @@ Using a UI framework like Bootstrap improves development speed and ensures desig
 This is an example of a website I made using bootstrap vs a an attempted recreation using only HTML/CSS in the same amount of time. 
 
 <img width="200px" class="rounded pe-4" src="../img/bootstrap.png">
-<img width="200px" class="rounded pe-4" src="../img/w:o-bootstrap.png">
+<img width="200px" class="rounded pe-4" src="../img/woBootstrap.png">
 
 ## Future of UI Frameworks
 
