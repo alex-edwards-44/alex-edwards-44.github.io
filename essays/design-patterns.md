@@ -46,3 +46,7 @@ These patterns helped us structure the project cleanly, even while working local
 Early on, I thought design patterns would restrict creativity. Now, I understand they amplify it. Patterns don't eliminate problem-solving — they focus on it. A big part of software engineering today is finding optimal solutions that already exist and adapting these design patterns. As software engineers, we often face similar problems repeatedly.  
 Design patterns give us a shared language to tackle these challenges faster and more thoughtfully. Instead of starting from scratch every time, we can recognize what kind of problem we’re facing and reach for a solution that has been proven to work, while still shaping it to fit our unique needs.  
 Learning to see patterns isn’t about memorizing definitions; it’s about building instincts for good design. The more I work with them, the more I realize that mastering design patterns isn’t the end goal, it’s just the beginning of writing better, smarter software.
+
+## Use of AI
+
+I used Chat GPT4 to provide grammar tweaks to improve clarity and flow. 
