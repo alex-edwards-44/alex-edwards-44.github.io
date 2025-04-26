@@ -41,6 +41,10 @@ const user = createUser("USER");
 Even our Navbar behavior, dynamically highlighting the active page and adapting based on login status, mirrors the Strategy Pattern: different behaviors triggered based on the user's current state.  
 These patterns helped us structure the project cleanly, even while working locally without a deployed backend. They gave us the flexibility to add features like an Edit Profile page, Jam Session scheduling, and eventually an Admin Dashboard without rewriting core logic.
 
+## Why Design Patterns Matter Across Software Engineering
+
+Design patterns are important because they allow developers from different backgrounds and companies to communicate using the same ideas. When someone mentions a "Singleton", it instantly sets expectations about how the code should behave. Patterns help organize complex systems, prevent common mistakes, and make large projects easier to scale.  Without design patterns, projects would not only take longer to build, but they would also become much harder to collaborate on, maintain, and improve over time.
+
 ## Patterns Aren't Shortcuts — They're Roadmaps
 
 Early on, I thought design patterns would restrict creativity. Now, I understand they amplify it. Patterns don't eliminate problem-solving — they focus on it. A big part of software engineering today is finding optimal solutions that already exist and adapting these design patterns. As software engineers, we often face similar problems repeatedly.  
