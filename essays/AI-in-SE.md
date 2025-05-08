@@ -27,19 +27,19 @@ For example, after a DNF on E27 (Five Problems 2), I used ChatGPT on my second a
 
 ### 2. In-Class Practice WODs
 
-During these sessions, I rarely used AI. I preferred to rely on my own problem-solving skills and collaborate with classmates to reach the solution. The group dynamic and hands-on problem solving made AI feel unnecessary in this context.
+During these sessions, I rarely used AI. I preferred to rely on my own problem solving skills and collaborate with classmates to reach the solution. The group dynamic and hands on problem solving made AI feel unnecessary in this context.
 
-The collaborative environment during practice WODs offered something AI couldn't replicate—including the social aspects of problem-solving. We often arrived at more creative solutions through group work than when using AI individually.
+The collaborative environment during practice WODs offered something AI couldn't replicate including the social aspects of problem-solving. We often arrived at more creative solutions through group work than when using AI individually.
 
 ### 3. In-Class WODs
 
-I tried to work through as much of the in-class WODs as possible without AI. However, given the time constraints, I often used AI for specific tasks, like generating simple HTML or React component formatting when instructions were clearly provided.
+I tried to work through as much of the in class WODs as possible without AI. However, given the time constraints, I often used AI for specific tasks, like generating simple HTML or React component formatting when instructions were clearly provided.
 
 ### 4. Essays
 
 When writing essays, I generally drafted my own outline and content first. I then used ChatGPT to improve the flow, polish the language, and strengthen my arguments. It acted as a writing assistant rather than a replacement.
 
-This mirrored professional editing workflows—maintaining ownership while enhancing clarity. Occasionally disagreeing with suggestions helped strengthen my writing identity and style.
+This mirrored professional editing workflows, maintaining ownership while enhancing clarity. Occasionally disagreeing with suggestions helped strengthen my writing identity and style.
 
 ### 5. Final Project
 
@@ -47,7 +47,7 @@ I avoided using AI to write actual code during the final project to maintain con
 
 ### 6. Learning a Concept / Tutorial
 
-When course materials didn’t fully clarify a topic, I turned to AI tools. I preferred asking AI quick follow-up questions instead of rewatching screencasts. The ability to request multiple explanations of the same concept at different levels of complexity made it more effective than static resources.
+When course materials didn’t fully clarify a topic, I turned to AI tools. I preferred asking AI quick follow up questions instead of rewatching screencasts. The ability to request multiple explanations of the same concept at different levels of complexity made it more effective than static resources.
 
 ### 7. Answering a Question in Class or on Discord
 
@@ -55,7 +55,7 @@ I refrained from using AI to answer classmates' questions due to potential inacc
 
 ### 8. Asking or Answering a Smart Question
 
-Same as above—I avoided letting AI generate the content but used it to cross-check or build confidence before responding.
+Same as above, I avoided letting AI generate the content but used it to cross-check or build confidence before responding.
 
 ### 9. Coding Example
 
@@ -69,7 +69,7 @@ When I didn't understand a snippet, I asked AI to explain it—especially with c
 
 ### 11. Writing Code
 
-While I didn't use AI to write final solutions, I sometimes asked it for quick prototypes or alternate approaches (e.g., Sets vs. filter for removing duplicates). This helped me evaluate trade-offs before coding.
+While I didn't use AI to write final solutions, I sometimes asked it for quick prototypes or alternate approaches (e.g., Sets vs. filter for removing duplicates). This helped me evaluate trade offs before coding.
 
 ### 12. Documenting Code
 
@@ -89,19 +89,19 @@ I occasionally used ChatGPT for productivity advice, time management, and motiva
 
 ## III. Impact on Learning and Understanding
 
-Overall, AI tools accelerated my learning. They served as tutors, code assistants, and editors. Initially, I over-relied on them, but over time, I learned how to balance their use with critical thinking and independent effort.
+Overall, AI tools accelerated my learning. They served as tutors, code assistants, and editors. Initially, I over relied on them, but over time, I learned how to balance their use with critical thinking and independent effort.
 
 ## IV. Practical Applications
 
-Although I haven’t yet participated in hackathons, I used AI in personal software projects—for debugging, UI planning, and prototyping. These mirrored real-world workflows and highlighted AI’s ability to speed up repetitive or time-consuming tasks.
+Although I haven’t yet participated in hackathons, I used AI in personal software projects—for debugging, UI planning, and prototyping. These mirrored real world workflows and highlighted AI’s ability to speed up repetitive or time consuming tasks.
 
 ## V. Challenges and Opportunities
 
-AI tools can hallucinate or suggest subpar code. The challenge is knowing when to trust them. I developed habits for verifying AI outputs—checking docs, testing code, and staying skeptical. These habits strengthened my overall discipline and thinking.
+AI tools can hallucinate or suggest subpar code. The challenge is knowing when to trust them. I developed habits for verifying AI outputs by checking docs, testing code, and staying skeptical. These habits strengthened my overall discipline and thinking.
 
 ## VI. Comparative Analysis
 
-Compared to traditional learning, AI offers faster, more personalized feedback. Traditional methods, like group work and screencasts, help with retention and collaboration. The best outcomes came from blending both—AI for speed, traditional for depth.
+Compared to traditional learning, AI offers faster, more personalized feedback. Traditional methods, like group work and screencasts, help with retention and collaboration. The best outcomes came from blending both AI for speed, traditional for depth.
 
 ## VII. Future Considerations
 
