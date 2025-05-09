@@ -9,7 +9,7 @@ labels:
   - software engineering
 ---
 
-# AI in ICS 314: A Reflection on the Role of Artificial Intelligence in Software Engineering Education
+# AI in ICS 314:
 
 ## I. Introduction: AI in Education and Software Engineering
 
