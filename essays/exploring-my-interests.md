@@ -4,7 +4,7 @@ type: essay
 title: "My future in software engineering"
 # All dates must be YYYY-MM-DD format!
 date: 2025-01-22
-published: true
+published: false
 labels:
   - software engineering
 ---
