@@ -17,7 +17,7 @@ After nearly completing ICS 314 Software Engineering I, I've gained more than ju
 
 Before this course, I thought configuration management was simply about keeping track of code changes. Now I understand it's a comprehensive approach to maintaining consistency across development environments and managing the evolution of software systems. Configuration management involves tracking and controlling changes to software and its environment throughout the entire development lifecycle.
 In ICS 314, we used tools like GitHub for version control, which allowed us to collaborate effectively by tracking changes, resolving conflicts, and maintaining different versions of our code. We also used GitHub Actions for continuous integration, automating testing and deployment processes whenever changes were pushed to our repositories. These practices ensured consistency and reliability across our projects.
-What I've realized is that configuration management applies to any software project, not just web applications. Whether developing mobile apps, desktop software, or embedded systems, having a structured approach to track changes, maintain consistency, and automate workflows is essential. In future projects, I plan to implement similar practices—establishing version control early, setting up automated testing, and maintaining clear documentation—regardless of the type of software I'm developing.
+What I've realized is that configuration management applies to any software project, not just web applications. Whether developing mobile apps or desktop software having a structured approach to track changes, maintain consistency, and automate workflows is essential. In future projects, I plan to implement similar practices such as establishing version control early, setting up automated testing, and maintaining clear documentation regardless of the type of software I'm developing.
 
 ##  Agile Project Management: Adaptability in Action
 
@@ -28,7 +28,6 @@ The beauty of Agile Project Management is its versatility. I can easily see myse
 ##  Design Patterns: Templates for Problem-Solving
 
 Design patterns were initially a challenging concept for me to grasp, but they've become one of the most valuable takeaways from this course. Simply put, design patterns are reusable solutions to common problems in software design. They provide templates for how to solve specific issues that occur repeatedly across different projects.
-In ICS 314, we implemented patterns like the Observer pattern in React (where components "observe" and react to state changes) and the Model-View-Controller pattern in our project structure. These patterns helped us create more maintainable and organized code.
 What's fascinating about design patterns is that they represent fundamental approaches to problem-solving that extend beyond web development. They're about recognizing common problems and applying proven solutions instead of trying to always “reinvent the wheel”. 
 
 
