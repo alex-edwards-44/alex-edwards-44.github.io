@@ -12,7 +12,6 @@ labels:
 # Reflection on Software Engineering
 
 After nearly completing ICS 314 Software Engineering I, I've gained more than just technical skills for building web applications. This course has provided me with foundational knowledge about software engineering as a discipline that extends far beyond web development. The integration of AI into the curriculum reflects broader technological trends in the industry, as companies increasingly adopt AI pair-programming tools and large language models for code generation and problem-solving. ICS 314 provided a structured environment to experiment with these tools while developing critical thinking about their appropriate use. In this reflection, I'll focus on three key areas that have significantly shaped my understanding of software engineering: Configuration Management, Agile Project Management, and Design Patterns.
-## II. Personal Experience with AI
 
 ## Configuration Management: More Than Just Version Control
 
